@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario con Radiobotón</title>
+</head>
+<body>
+
+    <p><a href="index.html">&larr; Volver al Índice Principal</a></p>
+
+    <!-- Formulario 5: Botones de opción única -->
+    <h2>Formularios con Radiobotón</h2>
+    <form action="" method="post">
+        Ingresa tu nombre:
+        <input type="text" name="nombre">
+        <br><br>
+        Selecciona el máximo de estudios que tienes:
+        <br>
+        <!-- 
+            type="radio" se utiliza para seleccionar solo UNA opción dentro de un grupo.
+            Para agruparlos, todos los elementos del mismo conjunto deben compartir el mismo atributo 'name'.
+        -->
+        <input type="radio" name="estudios" value="1"> Sin estudios <br>
+        <input type="radio" name="estudios" value="2"> Primaria <br>
+        <input type="radio" name="estudios" value="3"> Secundaria <br>
+        <input type="radio" name="estudios" value="4"> Preparatoria <br>
+        <br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="borrar">
+    </form>
+
+    <footer>
+        <hr>
+        <p><strong>Alumno:</strong> Jesus Candia Arenivas | <strong>Número de Control:</strong> 0814</p>
+    </footer>
+
+</body>
+</html>
